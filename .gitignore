@@ -22,3 +22,6 @@
 
 # Ruby Mine
 .idea/
+
+# Environment file
+.env
