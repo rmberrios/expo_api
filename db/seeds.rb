@@ -10,139 +10,59 @@ Presenter.delete_all
 Topic.delete_all
 comments = [
     {
-        "comment": "pariatur anim consectetur incididunt est velit excepteur laboris aliqua minim exercitation labore sunt eu et mollit sint eiusmod ad fugiat sint labore eiusmod proident tempor consectetur elit Lorem dolor mollit",
-        "email": "hazel.hurst@undefined.us",
-        "name": "{{firstName()}} {{surname()}}"
+        "comment": "in ex proident laborum cupidatat ad qui anim cillum magna aliqua nostrud mollit elit esse esse et cillum laborum exercitation quis eiusmod nostrud tempor ad adipisicing dolor incididunt ullamco do",
+        "email": "washington.jensen@atgen.com",
+        "name": "Staci Acevedo"
     },
     {
-        "comment": "adipisicing sint ullamco culpa non occaecat nisi magna sint ipsum dolor mollit ipsum dolore irure sunt officia adipisicing laborum esse sit in id occaecat nulla veniam labore irure sit laborum",
-        "email": "osborn.chaney@undefined.org",
-        "name": "{{firstName()}} {{surname()}}"
+        "comment": "ipsum proident sint commodo ad officia dolore Lorem aute magna adipisicing elit nostrud aliqua et exercitation ut minim et nulla ullamco anim aute eiusmod ut veniam ut veniam irure magna",
+        "email": "darlene.higgins@niquent.info",
+        "name": "Walton Ferguson"
     },
     {
-        "comment": "qui veniam ipsum commodo aliquip voluptate mollit Lorem voluptate mollit id commodo officia ad ipsum in amet ad aliquip ex ut excepteur cillum laboris pariatur eiusmod pariatur amet fugiat ea",
-        "email": "kaufman.fuentes@undefined.name",
-        "name": "Hooper Floyd"
+        "comment": "enim ea consequat ea laboris consequat ipsum aliqua occaecat dolore incididunt et sunt anim voluptate dolor do occaecat nulla cupidatat aliqua cillum reprehenderit consectetur magna est labore commodo anim consequat",
+        "email": "latasha.zamora@overplex.biz",
+        "name": "Marguerite Hayes"
     },
     {
-        "comment": "aute esse mollit culpa esse reprehenderit dolor ad sunt ea voluptate nostrud laborum tempor ea exercitation labore cupidatat ad consectetur minim exercitation nisi laboris excepteur tempor exercitation sint exercitation mollit",
-        "email": "reynolds.tyson@undefined.biz",
-        "name": "Kimberly Dejesus"
+        "comment": "excepteur irure qui voluptate ipsum deserunt irure labore aliquip enim in elit officia cillum eiusmod reprehenderit et elit duis exercitation esse laborum qui proident commodo duis do eu esse anim",
+        "email": "mccarty.faulkner@irack.io",
+        "name": "House Mcintyre"
     },
     {
-        "comment": "nisi id id et dolore aliquip elit magna voluptate deserunt incididunt est duis ex deserunt magna aute officia magna ipsum minim laboris commodo aliquip pariatur laboris laboris labore duis aliqua",
-        "email": "mcguire.york@undefined.info",
-        "name": "Debra Mcdonald"
+        "comment": "incididunt laborum amet dolor mollit minim aliqua et ea magna elit ad aliqua adipisicing exercitation ad cupidatat occaecat occaecat officia eu anim sit irure qui ipsum mollit officia sunt ipsum",
+        "email": "campos.craft@plasmos.me",
+        "name": "Mcguire English"
     },
     {
-        "comment": "id culpa enim nulla excepteur proident adipisicing pariatur exercitation incididunt qui voluptate consectetur anim adipisicing laboris enim amet quis magna nostrud adipisicing nisi duis et consectetur ex ut fugiat nostrud",
-        "email": "hinton.powers@undefined.biz",
-        "name": "Blake Knowles"
+        "comment": "aliqua nostrud commodo occaecat do eiusmod sunt proident veniam non cupidatat sint deserunt nulla ipsum officia velit sint ad occaecat cillum labore et velit irure laborum ea consequat ad nulla",
+        "email": "stevens.schmidt@spherix.ca",
+        "name": "Anderson Montgomery"
     },
     {
-        "comment": "velit magna enim officia ea sunt eu ad nostrud ipsum in voluptate reprehenderit occaecat occaecat dolore commodo sunt nisi ipsum reprehenderit eu ea dolore reprehenderit excepteur mollit aliquip quis exercitation",
-        "email": "daisy.ochoa@undefined.io",
-        "name": "Cash West"
+        "comment": "qui et anim proident culpa cupidatat fugiat amet excepteur elit exercitation cupidatat quis deserunt officia dolore magna deserunt dolor ullamco irure exercitation incididunt enim in proident consequat consectetur Lorem eiusmod",
+        "email": "emily.nguyen@quilch.us",
+        "name": "Judith Mccoy"
     },
     {
-        "comment": "irure enim proident eu reprehenderit irure occaecat culpa occaecat esse cillum elit aute et irure consectetur deserunt deserunt occaecat ea voluptate et aliquip laboris ea in incididunt enim tempor cupidatat",
-        "email": "kathy.mercer@undefined.com",
-        "name": "Cannon Michael"
+        "comment": "irure laboris Lorem cupidatat consequat adipisicing elit sint non nulla ut nisi culpa in mollit mollit veniam proident do Lorem ad ipsum do nulla excepteur ut do esse aliquip duis",
+        "email": "alvarez.suarez@obliq.org",
+        "name": "Adriana Wade"
     },
     {
-        "comment": "dolore occaecat qui consequat pariatur aliqua ex irure voluptate ullamco officia duis ut eiusmod sit qui cupidatat duis ex duis cillum dolor fugiat officia aliqua voluptate enim sint anim nostrud",
-        "email": "tamra.strong@undefined.net",
-        "name": "Maritza Phillips"
+        "comment": "ipsum fugiat Lorem consectetur cillum proident duis laborum excepteur consequat irure duis ea enim ea esse est aliquip magna nostrud laboris velit ex ea do quis exercitation nisi mollit cillum",
+        "email": "cooper.pitts@velity.name",
+        "name": "Tasha Cameron"
     },
     {
-        "comment": "magna deserunt eiusmod dolore quis occaecat magna adipisicing cupidatat minim nulla aliqua commodo ad laboris excepteur anim occaecat dolor ea commodo aliquip voluptate nulla Lorem eu qui et sint enim",
-        "email": "lisa.rivers@undefined.tv",
-        "name": "Ruth Hooper"
+        "comment": "in ex dolore nulla exercitation eiusmod aliqua veniam elit voluptate ex ex aliquip adipisicing do excepteur tempor est reprehenderit est cillum Lorem ea pariatur eiusmod ex nostrud cillum pariatur consectetur",
+        "email": "leila.knight@futurize.co.uk",
+        "name": "Gloria Shepard"
     },
     {
-        "comment": "dolore do Lorem irure et esse non officia consequat velit tempor sit excepteur ad elit cillum ipsum dolor sunt ad proident mollit minim sunt occaecat elit laborum ut amet dolor",
-        "email": "victoria.lang@undefined.me",
-        "name": "Greene Hobbs"
-    },
-    {
-        "comment": "aute consequat dolore elit consequat sint in laborum proident culpa ut non reprehenderit consequat nisi est ut proident ad nostrud culpa id esse veniam pariatur cillum do laborum voluptate sunt",
-        "email": "lynch.lamb@undefined.ca",
-        "name": "Dollie Woods"
-    },
-    {
-        "comment": "sint nostrud enim id ea reprehenderit excepteur aliqua ut ex voluptate consectetur aute dolor sint culpa proident consequat magna elit consequat occaecat voluptate enim veniam nulla cillum Lorem pariatur amet",
-        "email": "kelly.johnson@undefined.us",
-        "name": "Kane Raymond"
-    },
-    {
-        "comment": "pariatur fugiat minim esse velit irure in consequat aute sint ullamco cupidatat occaecat aliqua culpa deserunt ad magna consectetur qui exercitation nostrud aliquip proident ea esse ullamco aute cupidatat elit",
-        "email": "graves.preston@undefined.org",
-        "name": "Wooten Campbell"
-    },
-    {
-        "comment": "voluptate ea aliqua qui ad in anim Lorem excepteur in aliquip veniam reprehenderit nostrud est ipsum aliquip nisi consectetur pariatur eiusmod elit occaecat veniam cupidatat excepteur magna enim irure sunt",
-        "email": "lana.perry@undefined.name",
-        "name": "Charity Garcia"
-    },
-    {
-        "comment": "proident veniam excepteur culpa magna enim veniam nisi Lorem fugiat mollit occaecat veniam officia nisi dolor ipsum culpa cupidatat non ad voluptate mollit culpa nisi voluptate esse ad ut cupidatat",
-        "email": "guadalupe.sellers@undefined.biz",
-        "name": "Cobb Bradley"
-    },
-    {
-        "comment": "elit magna et enim amet pariatur pariatur tempor ut do mollit qui ad exercitation culpa eu irure do occaecat culpa aliquip nostrud eiusmod laboris cupidatat irure reprehenderit dolore enim mollit",
-        "email": "marshall.smith@undefined.info",
-        "name": "Whitley Emerson"
-    },
-    {
-        "comment": "sit cupidatat esse sunt velit occaecat culpa aliqua voluptate anim magna nulla do labore aute quis mollit et sunt dolore dolor labore do ea exercitation consequat non officia qui quis",
-        "email": "coleman.nieves@undefined.biz",
-        "name": "Allison Sargent"
-    },
-    {
-        "comment": "tempor elit voluptate culpa consequat ex nulla laborum ut sunt laborum fugiat reprehenderit sint esse nostrud ad sit eiusmod proident et pariatur cillum commodo incididunt commodo aute velit qui cupidatat",
-        "email": "lynne.anthony@undefined.io",
-        "name": "Sybil Gray"
-    },
-    {
-        "comment": "irure ea quis do incididunt tempor non ex veniam ex ullamco qui velit est cupidatat do quis ex veniam duis officia amet ipsum pariatur occaecat irure elit anim eiusmod eu",
-        "email": "carmela.leach@undefined.com",
-        "name": "Malinda Durham"
-    },
-    {
-        "comment": "mollit sint velit fugiat ipsum Lorem sint duis pariatur ex nisi incididunt dolore fugiat qui proident ex fugiat ad tempor culpa ullamco laboris proident est aliquip excepteur amet aliqua qui",
-        "email": "phelps.ratliff@undefined.net",
-        "name": "Chrystal Burch"
-    },
-    {
-        "comment": "enim est labore aute tempor ullamco enim consequat dolor nisi sunt dolor et voluptate nisi amet dolore velit ipsum irure veniam do consectetur culpa veniam incididunt officia exercitation ut aute",
-        "email": "walker.rice@undefined.tv",
-        "name": "Marcy Mack"
-    },
-    {
-        "comment": "sit laborum incididunt dolor velit veniam sunt fugiat ipsum et est magna nisi ut proident tempor amet labore enim aliquip nostrud deserunt et elit dolore ut velit velit irure minim",
-        "email": "susanne.johns@undefined.me",
-        "name": "Velazquez Cooper"
-    },
-    {
-        "comment": "do enim amet consectetur ullamco laborum eiusmod ad cillum elit non esse veniam laboris excepteur Lorem in amet ex ut eiusmod sint irure aliqua sunt officia occaecat reprehenderit consectetur incididunt",
-        "email": "tillman.hester@undefined.ca",
-        "name": "Christian Davis"
-    },
-    {
-        "comment": "consectetur non sint incididunt et fugiat culpa eu aliquip proident eiusmod sunt ex in Lorem excepteur id adipisicing pariatur amet aliqua laboris irure tempor nulla proident dolor magna minim amet",
-        "email": "deanne.harrison@undefined.us",
-        "name": "Ola Woodward"
-    },
-    {
-        "comment": "anim aliqua minim sit cillum dolor ut sunt dolor quis esse sit do veniam aliqua elit voluptate id pariatur esse fugiat anim exercitation irure eu laboris minim deserunt in officia",
-        "email": "david.morin@undefined.org",
-        "name": "Gena Coffey"
-    },
-    {
-        "comment": "reprehenderit aute nostrud sunt laborum ut adipisicing Lorem ad esse pariatur mollit nulla culpa ipsum fugiat pariatur dolor ullamco exercitation mollit exercitation minim nisi consequat pariatur duis tempor labore exercitation",
-        "email": "tiffany.hays@undefined.name",
-        "name": "Cline Nunez"
+        "comment": "velit dolor nulla esse proident amet nulla elit non nisi esse enim consequat ut sint exercitation eiusmod irure aliqua ex esse anim sint ex nostrud duis irure minim veniam laborum",
+        "email": "jessie.tyson@billmed.tv",
+        "name": "Shaw Randall"
     }
 ]
 
