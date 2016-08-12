@@ -1,11 +1,13 @@
 class CommentsController < ApplicationController
   before_action :set_comment, only: [:show, :update, :destroy]
+  before_action :set_topic, only: [:index]
 
   # GET /comments
   def index
-    @comments = Comment.all
 
-    render json: @comments
+    @comments = @topic.comments
+
+    render json: {presenter: @presenter, topic: @topic, comments: @comments}
   end
 
   # GET /comments/1
@@ -42,6 +44,11 @@ class CommentsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_comment
       @comment = Comment.find(params[:id])
+    end
+
+    def set_topic
+      @topic = Topic.find(params[:topic_id])
+      @presenter = @topic.presenter
     end
 
     # Only allow a trusted parameter "white list" through.

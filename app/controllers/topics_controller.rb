@@ -10,7 +10,10 @@ class TopicsController < ApplicationController
 
   # GET /topics/1
   def show
-    render json: @topic
+    render json: {
+        topic: @topic,
+        presenter: @presenter
+    }
   end
 
   # POST /topics
@@ -42,6 +45,7 @@ class TopicsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_topic
       @topic = Topic.find(params[:id])
+      @presenter = @topic.presenter
     end
 
     # Only allow a trusted parameter "white list" through.
